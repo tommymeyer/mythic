@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #282323;
+  /* background-color: #000222; */
+}
+
+header h1 {
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#merriweather3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+#merriweather4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+#merriweather7 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+#merriweather9 {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+
+#righteous {
+  font-family: 'Righteous', cursive;
+}
