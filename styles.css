@@ -7,32 +7,52 @@ body {
   /* background-color: #000222; */
 }
 
-header h1 {
+section {
+  margin: 0 auto;
+  max-width: 21.875em;
+}
+
+article {
+  font-size: 1rem;
+  margin-top: 6em;
+}
+
+article:first-of-type p {
+  margin-left: 1.125em;
+}
+
+article:nth-of-type(2) p {
+  margin-left: 1em;
+}
+
+article:nth-of-type(3) p, article:last-of-type p {
+  margin-left: 1.375em;
+}
+
+article h1 {
   color: white;
   font-size: 6rem;
+  font-family: 'Merriweather', serif;
   text-align: center;
 }
 
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #merriweather3 {
-  font-family: 'Merriweather', serif;
   font-weight: 300;
 }
 
 #merriweather4 {
-  font-family: 'Merriweather', serif;
   font-weight: 400;
 }
 
 #merriweather7 {
-  font-family: 'Merriweather', serif;
   font-weight: 700;
 }
 
 #merriweather9 {
-  font-family: 'Merriweather', serif;
   font-weight: 900;
-}
-
-#righteous {
-  font-family: 'Righteous', cursive;
 }
