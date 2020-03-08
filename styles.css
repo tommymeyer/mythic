@@ -18,15 +18,15 @@ article {
 }
 
 article:first-of-type p {
-  margin-left: 1.125em;
+  margin-left: 2em;
 }
 
 article:nth-of-type(2) p {
-  margin-left: 1em;
+  margin-left: 1.75em;
 }
 
 article:nth-of-type(3) p, article:last-of-type p {
-  margin-left: 1.375em;
+  margin-left: 1.5em;
 }
 
 article h1 {
